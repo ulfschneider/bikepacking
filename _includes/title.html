@@ -1,0 +1,11 @@
+<div class="title">
+    <h1>{{page.title}}</h1> {% if page.subtitle %}
+    <div class="sub-title">{{page.subtitle}}</div>{% endif %} {%if page.date or page.author %}
+    <div class="meta">
+        {% if page.date %}
+        <div class="date">{% assign m = page.date | date: "%-m" %} {{ page.date | date: "%-d." }} {% case m %} {% when '1' %}Januar {% when '2' %}Februar {% when '3' %}März {% when '4' %}April {% when '5' %}Mai {% when '6' %}Juni {% when '7' %}Juli {% when '8' %}August
+            {% when '9' %}September {% when '10' %}Oktober {% when '11' %}November {% when '12' %}Dezember {% endcase %} {{ page.date | date: "%Y" }}</div>{% endif %} {% if page.author %}
+        <div class="author">von {{page.author}}</div>{% endif %}
+    </div>
+    {% endif %}
+</div>

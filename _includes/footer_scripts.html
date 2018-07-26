@@ -1,0 +1,32 @@
+<script src="/r/dynamic-header.min.js"></script>
+<script>
+    DynamicHeader.init();
+    /*  Without any arguments, DynamicHeader.init() will search for a container
+     *  with id="header" or a tag <header> and will make that container the dynamic header.
+     *
+     *  Alternative usage:
+     *  @function DynamicHeader.init(config);
+     *  @param {String} config.headerId - Specify the id of the container you want to make the dynamic header. Default is 'header'.
+     *  @param {Number} config.delta -  The number of pixels a user need to scroll at least in order to make DynamicHeader react on the scrolling. Default is 5.
+     *
+     *  @function DynamicHeader.destroy();
+     *  Revert all changes that have been made by DynamicHeader.init();
+     */
+</script>
+<script>
+    /* Google analytics*/
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-60540183-1', 'auto');
+    ga('send', 'pageview');
+</script>

@@ -1,0 +1,51 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+$base-font-family: "Input Sans", Sans-Serif;
+$base-font-weight: normal;
+$thin-font-family: "Input Sans Thin", Sans-Serif;
+$thin-font-weight: normal;
+$title-font-family: "Input Sans", Sans-Serif;
+$title-font-weight: bold;
+$subtitle-font-family: "Input Sans", Sans-Serif;
+$subtitle-font-weight: normal;
+$code-font-family: "Source Code Pro", Monospace;
+$code-font-weight: normal;
+$base-font-size: 16px;
+$large-font-size: $base-font-size * 1.62;
+$enlarged-font-size: $base-font-size + 2px;
+$small-font-size: $base-font-size - 1;
+$extra-small-font-size: $base-font-size / 1.62;
+$palm-base-font-size: 16px;
+$large-line-height: 1em * 1.62;
+$small-line-height: 1em * 1.62;
+$enlarged-line-height: 1em * 1.62;
+$palm-base-line-height: 1em * 1.62;
+$base-line-height: 1em * 1.62;
+$text-color: #333;
+$background-color: #ffffff;
+$header-fallback-color: #ffffff;
+$header-background-color: #ffffff;
+$header-color: $text-color;
+$spacing-half: 0.81em;
+$spacing-1: 1.62em;
+$spacing-2: 1.62 * 1.62em;
+$spacing-3: 1.62 * 1.62 * 1.62em;
+$spacing-4: 1.62 * 1.62 * 1.62 * 1.62em;
+$spacing-5: 1.62 * 1.62 * 1.62 * 1.62 * 1.62em;
+$content-width: 700px;
+$image-grid-width: 700px + 300px;
+$on-palm: 600px;
+$on-narrow: 800px;
+$on-pc: 1200px;
+$on-widescreen: 1800px;
+$on-extra-widescreen: 10000px;
+$transition-duration: 0.25s;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "base", "grid", "layout";

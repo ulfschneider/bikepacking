@@ -1,0 +1,151 @@
+/* base */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,700|Work+Sans:400,600');
+$base-font-family: 'Merriweather', Serif;
+$headline-font-family: 'Work Sans';
+$title-font-family: 'Work Sans';
+$font-size: 16px;
+$small-font-size: 14px;
+$big-font-size: 18px;
+$font-weight: 400;
+$line-height: 1.62em;
+$text-color: #000;
+$background-color: #fff;
+$palm-width: 400px;
+$content-width: 700px;
+$mid-width: 1200px;
+$large-width: 1400px;
+$spacing-half: 0.81em;
+$spacing-quart: 0.4em;
+$spacing-1: 1.62em;
+$spacing-2: 1.62 * 1.62em;
+$spacing-3: 1.62 * 1.62 * 1.62em;
+$spacing-4: 1.62 * 1.62 * 1.62 * 1.62em;
+
+* {
+    line-height: $line-height;
+    font-weight: $font-weight;
+    font-family: $base-font-family;
+    color: $text-color;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: $font-size;
+    font-feature-settings: "onum" 1;
+    background-color: $background-color;
+}
+@supports (font-variant-numeric: oldstyle-nums) {
+    body {
+        font-feature-settings: normal;
+        font-variant-numeric: oldstyle-nums;
+    }
+}
+
+a {
+    text-decoration:underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 *,
+h2 *,
+h3 *,
+h4 *,
+h5 *,
+h6 * {
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: $spacing-2;
+    margin-bottom: $spacing-half;
+    text-align: center;
+    font-feature-settings: "lnum" 1;
+    font-family: $headline-font-family;
+    text-transform: uppercase;
+}
+
+h1 {
+    line-height:1em;
+}
+
+ul {
+    list-style: disc;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-position: outside;
+}
+
+li {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        display: inline-block;
+        margin: 0;
+        text-align: left;
+        font-weight: $font-weight;
+        font-style: italic;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+img {
+    margin: 0;
+    max-width: 100%;
+}
+
+hr {
+    margin: $spacing-1 auto;
+    border: 0;
+}
+
+hr:after {
+    content: "* * *";
+}
+
+.vertical-rhythm,
+figure,
+p {
+    margin: 0 0 $spacing-1;
+    padding: 0;
+}
+
+figure {
+    max-width: 100%;
+}
+
+figcaption {
+    margin: 0;
+    font-style: italic;
+    font-size: $small-font-size;
+}
+
+code {
+    font-family: $code-font-family;
+    font-size: $small-font-size;
+}
+
+strong {
+    font-weight: bold;
+}
+@media screen and (min-width: $large-width) {
+    body {
+        font-size: $big-font-size;
+    }
+}
+@media screen and (max-width: $content-width) {
+    li {
+        list-style-position: inside;
+    }
+}

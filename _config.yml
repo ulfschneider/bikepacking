@@ -1,1 +1,19 @@
-theme: jekyll-theme-minimal
+# Site settings
+title:            Bikepacking #title of the page
+description:      >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+meta:
+name:             #
+baseurl:          ""
+url:              http://ulf.codes # the base hostname & protocol for the site
+twitter_prompt: Follow me via #something like: Follow me via
+twitter_username: ulfeed #twitter user
+
+# Build settings
+markdown:         kramdown
+include:          ['_pages']
+permalink:        '/:title/'
+plugins:
+  - jekyll-feed

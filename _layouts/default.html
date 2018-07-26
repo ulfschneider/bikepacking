@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	{% include head.html %}
+</head>
+
+<body>
+	{% include header.html %} {% include banner.html %}
+	<div id="content" class="grid">
+		{% include title.html %} {{ content }}
+	</div>
+
+	{% include footer_scripts.html %}
+</body>
+
+</html>

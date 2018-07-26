@@ -1,0 +1,17 @@
+{% if page.banner %}
+<div class="banner">
+    <div class="grid">
+        <div class="full cover height-100vh" style="background-image:url('/i/{{page.banner}}')">
+            {% if page.bannertitle %}
+            <div class="grid">
+                <div class="wide title">
+                    <h1 {% if page.bannercolor %}style="color:{{page.bannercolor}}" {% endif%}>
+                        {{page.bannertitle}}
+                    </h1>{% if page.bannersubtitle %}
+                    <div class="sub-title" {% if page.bannercolor %}style="color:{{page.bannercolor}}" {% endif%}>{{page.bannersubtitle}}</div>{% endif %}
+                </div>
+            </div> {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}
