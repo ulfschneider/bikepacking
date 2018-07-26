@@ -6,8 +6,14 @@ description:      >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 meta:
 name:             #
-baseurl:          ""
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl:          /bikepacking
+
 url:              http://ulf.codes # the base hostname & protocol for the site
+
 twitter_prompt: Follow me via #something like: Follow me via
 twitter_username: ulfeed #twitter user
 
