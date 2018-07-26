@@ -271,8 +271,9 @@ header {
     font-family: "Work Sans"; }
   .title .sub-title {
     font-family: "Work Sans"; }
-  .title .meta {
+  .title .meta, .title .meta * {
     margin: 1.62em 0;
+    font-family: "Work Sans";
     font-size: 14px; }
   .title .abstract {
     margin-top: 1.62em;
@@ -321,8 +322,8 @@ header {
   .toc-list .item .meta, .toc-list .item .meta *,
   .toc-list li .meta,
   .toc-list li .meta * {
-    font-family: "Work Sans";
-    font-size: 14px; }
+    font-size: 14px;
+    font-family: "Work Sans"; }
   .toc-list .item div.meta, .toc-list .item p.meta,
   .toc-list li div.meta,
   .toc-list li p.meta {
