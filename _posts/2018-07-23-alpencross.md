@@ -6,7 +6,6 @@ bannersubtitle: Zu viert mit dem Mountainbike über die Alpen
 bannercolor: '#fbdac8'
 title:  Alpencross
 subtitle: Zu viert mit dem Mountainbike über die Alpen
-author: Ulf Schneider
 ---
 # Die Idee
 Mit Berthold bin ich 2017 eine vom [Rad-Treff Borchen](http://www.rad-treff-borchen.de) organisierte CTF gefahren. Trotz des eher schlechten Wetters hat das großen Spaß gemacht und Monate später haben wir unkonkret darüber gesprochen, wie es wäre, einmal einige Tage mit dem Mountainbike unterwegs zu sein. Das Thema hat uns nicht losgelassen und irgendwann hat sich die Idee konkretisiert, mit dem Mountainbike über die Alpen zu fahren. Ab einem bestimmten Punkt hat Berthold das Vorhaben fixiert, indem er klarmachte, dass er das Vorhaben für 2019 fest eingeplant hat. Damit kam Schwung in die Sache und in der Folge haben wir recherchiert und uns gegenseitig informative und motivierende Videos gesendet. Eines davon zum Beispiel "[Traumpfade](https://www.br.de/mediathek/video/traumpfade-mit-dem-mountainbike-ueber-die-alpen-av:5a3c404bdd95b200180bcb86)".
