@@ -50,6 +50,9 @@ Natürlich können wir verschiedenen Routen über die Alpen folgen. Wir beginnen
 
 https://www.bike-magazin.de/touren/transalp/mtb-transalp-neue-routen-ueber-die-alpen/a39141.html
 
+http://transalpbiker.de/2017/02/24/easybiker-transalp-die-transalp-fuer-neulinge/
+
+http://transalpbiker.de/2017/01/08/eisjoechl-transalp/
 
 
 # Bike
