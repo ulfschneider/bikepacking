@@ -245,6 +245,9 @@ strong {
 .align-right {
   text-align: right; }
 
+.align-center {
+  text-align: center; }
+
 header {
   background: #000;
   color: #fff;
