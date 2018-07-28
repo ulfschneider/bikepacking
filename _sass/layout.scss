@@ -167,7 +167,9 @@ header {
     }
 }
 
-.toc-list {
+.detail-list {
+    margin-top:$spacing-1;
+
     .item,
     li {
         margin: 0 0 $spacing-1;
@@ -191,5 +193,10 @@ header {
         div.meta, p.meta {
             margin-bottom:$spacing-quart;
         }
+
+        .meta + p {
+            text-indent:0;
+        }
+
     }
 }
