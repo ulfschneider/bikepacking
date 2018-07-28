@@ -131,8 +131,9 @@ hr:after {
 }
 
 .vertical-rhythm,
-figure {
-    margin: 0 0 $spacing-1;
+figure,
+iframe {
+    margin: $spacing-1 0;
     padding: 0;
 }
 

@@ -89,8 +89,9 @@ hr:after {
   content: "* * *"; }
 
 .vertical-rhythm,
-figure {
-  margin: 0 0 1.62em;
+figure,
+iframe {
+  margin: 1.62em 0;
   padding: 0; }
 
 figure {
@@ -347,3 +348,6 @@ header {
     .detail-list .item .meta + p,
     .detail-list li .meta + p {
       text-indent: 0; }
+    .detail-list .item *:last-child,
+    .detail-list li *:last-child {
+      margin-bottom: 0; }
