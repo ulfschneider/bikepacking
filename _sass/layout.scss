@@ -74,6 +74,7 @@
 
 .align-center {
     text-align:center;
+    text-indent:0;
 }
 
 header {
@@ -202,5 +203,18 @@ header {
             margin-bottom:0;
         }
 
+    }
+}
+
+@media screen and (max-width: $content-width) {
+    .banner {
+        .title {
+            h1 {
+                font-size:$spacing-1;
+            }
+            .sub-title {
+                font-size:1em;
+            }
+        }
     }
 }
