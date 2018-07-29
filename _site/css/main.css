@@ -309,14 +309,18 @@ header {
     font-size: 1.62em;
     text-align: left; }
 
-.toc ul {
-  list-style-type: none; }
-.toc li {
-  display: inline; }
-.toc li:after {
-  content: " - "; }
-.toc li:last-child:after {
-  content: ""; }
+.toc {
+  font-size: 15px; }
+  .toc ul {
+    list-style-type: none; }
+  .toc li {
+    display: inline; }
+    .toc li a {
+      text-decoration: none; }
+  .toc li:after {
+    content: " - "; }
+  .toc li:last-child:after {
+    content: ""; }
 
 .detail-list {
   margin-top: 1.62em; }

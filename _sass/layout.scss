@@ -149,12 +149,18 @@ header {
 }
 
 .toc {
+    font-size: $small-font-size;
+
     ul {
         list-style-type: none;
     }
 
     li {
         display: inline;
+
+        a {
+            text-decoration: none;
+        }
     }
 
     li:after {
