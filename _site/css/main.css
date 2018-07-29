@@ -287,7 +287,8 @@ header {
     font-family: "Work Sans"; }
   .title .sub-title {
     font-family: "Work Sans"; }
-  .title .meta, .title .meta * {
+  .title .meta,
+  .title .meta * {
     margin: 1.62em 0;
     font-family: "Work Sans";
     font-size: 15px; }
@@ -297,11 +298,10 @@ header {
     text-align: left; }
 
 .banner .title {
-  margin: 0;
-  margin-top: 4.251528em; }
+  margin: 2.6244em 0 0; }
   .banner .title h1 {
     color: #fff;
-    font-size: 4.251528em;
+    font-size: 2.6244em;
     text-align: left;
     margin: 0; }
   .banner .title .sub-title {
@@ -337,12 +337,14 @@ header {
       font-weight: bold;
       font-style: normal;
       margin-right: 1.62em; }
-    .detail-list .item .meta, .detail-list .item .meta *,
+    .detail-list .item .meta,
+    .detail-list .item .meta *,
     .detail-list li .meta,
     .detail-list li .meta * {
       font-size: 15px;
       font-family: "Work Sans"; }
-    .detail-list .item div.meta, .detail-list .item p.meta,
+    .detail-list .item div.meta,
+    .detail-list .item p.meta,
     .detail-list li div.meta,
     .detail-list li p.meta {
       margin-bottom: 0.4em; }

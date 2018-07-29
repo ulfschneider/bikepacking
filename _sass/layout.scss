@@ -11,7 +11,7 @@
 }
 
 .height-100vh {
-    height:100vh;
+    height: 100vh;
 }
 
 .height-500px {
@@ -73,8 +73,8 @@
 }
 
 .align-center {
-    text-align:center;
-    text-indent:0;
+    text-align: center;
+    text-indent: 0;
 }
 
 header {
@@ -83,20 +83,20 @@ header {
     padding: $spacing-half 0;
 
     .title {
-        padding:0;
-        margin:0;
-        text-transform:uppercase;
-        font-weight:normal;
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+        font-weight: normal;
     }
 
     * {
-        font-family:$headline-font-family;
-        letter-spacing:1px;
+        font-family: $headline-font-family;
+        letter-spacing: 1px;
         text-align: center;
 
         a {
             color: white;
-            text-decoration:none;
+            text-decoration: none;
         }
     }
 }
@@ -108,17 +108,18 @@ header {
     h1 {
         margin: 0;
         font-size: $spacing-1;
-        font-family:$title-font-family;
+        font-family: $title-font-family;
     }
 
     .sub-title {
-        font-family:$title-font-family;
+        font-family: $title-font-family;
     }
 
-    .meta, .meta * {
-        margin:$spacing-1 0;
-        font-family:$title-font-family;
-        font-size:$small-font-size;
+    .meta,
+    .meta * {
+        margin: $spacing-1 0;
+        font-family: $title-font-family;
+        font-size: $small-font-size;
     }
 
     .abstract {
@@ -129,26 +130,23 @@ header {
 }
 
 .banner {
-
     .title {
-        margin:0;
-        margin-top:$spacing-3;
+        margin: $spacing-2 0 0;
 
         h1 {
-            color:$background-color;
-            font-size:$spacing-3;
-            text-align:left;
-            margin:0;
+            color: $background-color;
+            font-size: $spacing-2;
+            text-align: left;
+            margin: 0;
         }
 
         .sub-title {
-            color:$background-color;
+            color: $background-color;
             font-size: $spacing-1;
-            text-align:left;
+            text-align: left;
         }
     }
 }
-
 
 .toc {
     ul {
@@ -169,7 +167,7 @@ header {
 }
 
 .detail-list {
-    margin-top:$spacing-1;
+    margin-top: $spacing-1;
 
     .item,
     li {
@@ -186,34 +184,35 @@ header {
             margin-right: $spacing-1;
         }
 
-        .meta, .meta * {
-            font-size:$small-font-size;
-            font-family:$headline-font-family;
+        .meta,
+        .meta * {
+            font-size: $small-font-size;
+            font-family: $headline-font-family;
         }
 
-        div.meta, p.meta {
-            margin-bottom:$spacing-quart;
+        div.meta,
+        p.meta {
+            margin-bottom: $spacing-quart;
         }
 
         .meta + p {
-            text-indent:0;
+            text-indent: 0;
         }
 
         *:last-child {
-            margin-bottom:0;
+            margin-bottom: 0;
         }
-
     }
 }
-
 @media screen and (max-width: $content-width) {
     .banner {
         .title {
             h1 {
-                font-size:$spacing-1;
+                font-size: $spacing-1;
             }
+
             .sub-title {
-                font-size:1em;
+                font-size: 1em;
             }
         }
     }
