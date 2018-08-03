@@ -304,6 +304,13 @@ header {
 .toc {
   font-size: 15px;
   margin: 1.62em 0; }
+  .toc:after {
+    position: relative;
+    height: 0.4em;
+    width: 4.251528em;
+    background: #000;
+    content: "";
+    display: block; }
   .toc ul {
     list-style-type: none; }
   .toc li {

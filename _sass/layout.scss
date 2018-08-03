@@ -152,6 +152,15 @@ header {
     font-size: $small-font-size;
     margin: $spacing-1 0;
 
+    &:after {
+        position: relative;
+        height: $spacing-quart;
+        width: $spacing-3;
+        background: $text-color;
+        content: "";
+        display: block;
+    }
+
     ul {
         list-style-type: none;
     }
