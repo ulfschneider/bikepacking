@@ -1,6 +1,5 @@
 /* base */
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,700|Work+Sans:400,600');
-
 $base-font-family: 'Merriweather', Serif;
 $headline-font-family: 'Work Sans';
 $title-font-family: 'Work Sans';
@@ -44,35 +43,25 @@ body {
 }
 
 p {
-    text-indent:$spacing-2;
-    margin:0;
+    text-indent: $spacing-2;
+    margin: 0;
 }
-
-h1 + p,
-h2 + p,
-h3 + p,
-h4 + p,
-h5 + p
-h6 + p {
-    text-indent:0;
-}
-
 
 a {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 h1 *,
+h2,
 h2 *,
+h3,
 h3 *,
+h4,
 h4 *,
+h5,
 h5 *,
+h6,
 h6 * {
     font-size: 1em;
     font-weight: 600;
@@ -85,7 +74,7 @@ h6 * {
 }
 
 h1 {
-    line-height:1em;
+    line-height: 1em;
 }
 
 ul {
@@ -150,7 +139,6 @@ figcaption {
 strong {
     font-weight: bold;
 }
-
 @media screen and (min-width: $large-width) {
     body {
         font-size: $big-font-size;

@@ -150,6 +150,7 @@ header {
 
 .toc {
     font-size: $small-font-size;
+    margin: $spacing-1 0;
 
     ul {
         list-style-type: none;
@@ -199,6 +200,7 @@ header {
         div.meta,
         p.meta {
             margin-bottom: $spacing-quart;
+            text-indent: 0;
         }
 
         .meta + p {

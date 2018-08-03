@@ -21,28 +21,20 @@ p {
   text-indent: 2.6244em;
   margin: 0; }
 
-h1 + p,
-h2 + p,
-h3 + p,
-h4 + p,
-h5 + p
-h6 + p {
-  text-indent: 0; }
-
 a {
   text-decoration: underline; }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 h1 *,
+h2,
 h2 *,
+h3,
 h3 *,
+h4,
 h4 *,
+h5,
 h5 *,
+h6,
 h6 * {
   font-size: 1em;
   font-weight: 600;
@@ -310,7 +302,8 @@ header {
     text-align: left; }
 
 .toc {
-  font-size: 15px; }
+  font-size: 15px;
+  margin: 1.62em 0; }
   .toc ul {
     list-style-type: none; }
   .toc li {
@@ -351,7 +344,8 @@ header {
     .detail-list .item p.meta,
     .detail-list li div.meta,
     .detail-list li p.meta {
-      margin-bottom: 0.4em; }
+      margin-bottom: 0.4em;
+      text-indent: 0; }
     .detail-list .item .meta + p,
     .detail-list li .meta + p {
       text-indent: 0; }
