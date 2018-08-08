@@ -14,12 +14,15 @@ $palm-width: 400px;
 $content-width: 700px;
 $mid-width: 1200px;
 $large-width: 1400px;
-$spacing-half: 0.81em;
-$spacing-quart: 0.4em;
+$spacing-neutral: 1em;
 $spacing-1: 1.62em;
 $spacing-2: 1.62 * 1.62em;
 $spacing-3: 1.62 * 1.62 * 1.62em;
 $spacing-4: 1.62 * 1.62 * 1.62 * 1.62em;
+$spacing-half: 1em / 1.62;
+$spacing-third: 1em / (1.62 * 1.62)
+$spacing-quart: 1em / (1.62 * 1.62 * 1.62)
+
 
 * {
     line-height: $line-height;
