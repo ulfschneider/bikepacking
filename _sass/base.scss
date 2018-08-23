@@ -1,5 +1,5 @@
 /* base */
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,700|Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Work+Sans:400,600');
 $base-font-family: 'Merriweather', Serif;
 $headline-font-family: 'Work Sans';
 $title-font-family: 'Work Sans';
@@ -22,6 +22,7 @@ $spacing-4: 1.62 * 1.62 * 1.62 * 1.62em;
 $spacing-half: 1em / 1.62;
 $spacing-third: 1em / (1.62 * 1.62);
 $spacing-quart: 1em / (1.62 * 1.62 * 1.62);
+$spacing-quint: 1em / (1.62 * 1.62 * 1.62 * 1.62);
 
 
 * {
